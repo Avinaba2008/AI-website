@@ -1,0 +1,56 @@
+body{
+	background: linear-gradient(to right,yellow, green);
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	padding: 10px;
+	font-family:"open Sans","sans-serif;";
+}
+h1 {
+	font-family:"open Sans","consolas";
+	font-size: 2em;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-width: 2px;
+	background: linear-gradient(to right,red, pink);
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	border-left: dotted;
+	border-right: dotted;
+	width: 850px;
+	height: 50px;
+	text-align: center;
+
+
+}
+h1:hover {
+	text-shadow: 5px 5px 10px gold;
+	box-shadow: 10px 10px 10px grey;
+}
+a:link {
+	color:lawngreen;
+}
+a:visited {
+	color:lawngreen;
+}
+a:hover {
+	color: blue;
+}
+#AI {
+	float: left;
+}
+#DNN1 {
+	float: right;
+}
+#DNN2 {
+	float: left;
+}
+#NeuralNetworks {
+	background: linear-gradient(to right,red, pink);
+	background-repeat: no-repeat  ;
+	background-attachment: fixed;
+	border-left: dotted;
+	border-right: dotted;
+	width: 450px;
+	height: 100px;
+	text-align: center;
+}
